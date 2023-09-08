@@ -1,0 +1,7 @@
+services:
+  python:
+    build: ./python
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    shm_size: 2gb
